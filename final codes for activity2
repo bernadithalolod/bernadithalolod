@@ -1,0 +1,77 @@
+ import java.util.Scanner;
+public class Main {
+
+
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        String Foods;
+        String Drinks;
+
+        System.out.println("Enter Food order: ");
+        username = sc.next();
+        System.out.println("Enter Drink order: ");
+        Orders = sc.next();
+
+        System.out.printin("n1.Chicken\n2. Ramen\n3.Hamburger\n4.Kari-kari\n5.Coke\n6.Water\n7.Juice"){
+        System.out.printin("\Enter number of Foods and Drinks:");
+        number=sc.nextin();
+
+        switch(number);
+          case 1:{
+            System.out.printin("Chickenn");
+            break;
+          }
+          case 2:{
+            System.out.printin("Ramen");
+            breaker;
+          }
+          Syatem.out.print("Hamburger");
+          breaker;
+        }
+        case 3:{
+          System.out.printin("Kari-kari");
+          break;
+        }
+        case 4:{
+          System.out.printin("Coke");
+          break;
+        }
+        case 5:{
+          System.out.printin("Water");
+          break;
+        }
+        case 6:{
+          System.out.printin("Juice");
+          break;
+        }
+        
+            System.out.println("Welcome "customer" how can I help you today?");
+            System.out.println("Enter your orders");
+            System.out.println("1.Chicken\n2.Ramen");
+            deafault:{
+          System.out.printin("Enter Stop dont want to Order");
+
+            int transaction = sc.nextInt();
+            int pay = 500;
+            int deposit,pay;
+            System.out.println("Total to Pay: "+pay);
+            if(transaction == 1){
+                System.out.print("Enter amount to pay: ");
+                deposit = sc.nextInt();
+          
+                System.out.println("Transaction complete!\n");
+                System.out.println("Change : "+change);
+            }
+            
+                        System.out.println("Remaining change: "+change);
+                    }
+                    else {
+                        int Change = change- withdraw;
+                        System.out.println("Transaction complete!\n");
+                        System.out.println("Updated Change: " change);
+                        System.out.println("Thank you and come again!");
+                    }
+            }
+        }
+        
+    }
