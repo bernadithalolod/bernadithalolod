@@ -1,0 +1,46 @@
+Import.java.util.Scanner;
+     public class main{
+
+        public static void main (String[]args){
+          Scanner=sc.newScanner(System.in);
+        int number;
+
+        System.out.printin("n1.Chicken\n2. Ramen\n3.Hamburger\n4.Kari-kari\n5.Coke\n6.Water\n7.Juice"){
+        System.out.printin("\Enter number of Foods and Drinks:");
+        number=sc.nextin();
+        
+        switch(number);
+          case 1:{
+            System.out.printin("Chickenn");
+            break;
+          }
+          case 2:{
+            System.out.printin("Ramen");
+            breaker;
+          }
+          Syatem.out.print("Hamburger");
+          breaker;
+        }
+        case 3:{
+          System.out.printin("Kari-kari");
+          break;
+        }
+        case 4:{
+          System.out.printin("Coke");
+          break;
+        }
+        case 5:{
+          System.out.printin("Water");
+          break;
+        }
+        case 6:{
+          System.out.printin("Juice");
+          break;
+        }
+        deafault:{
+          System.out.printin("Enter Stop dont want to Order");
+        
+          }
+        }        }
+      }
+     }
